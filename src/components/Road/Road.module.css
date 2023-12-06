@@ -1,5 +1,6 @@
 .app__roadmap__section {
-  background-image: url(https://preview.uideck.com/items/crypto/assets/img/xcommon-bg.jpg.pagespeed.ic.EQcRUEZWvX.webp);
+  /* background-image: url(https://preview.uideck.com/items/crypto/assets/img/xcommon-bg.jpg.pagespeed.ic.EQcRUEZWvX.webp); */
+  background-color: blue;
   padding-bottom: 70px;
   padding-top: 100px;
   background-position: center center;

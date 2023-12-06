@@ -1,28 +1,31 @@
 import React from "react";
 import Style from "./Feature.module.css";
+import Map from "../../assets/images/Specialities-Map.png";
+import AdaptiveLearning from "../../assets/images/Specialities-AdaptiveLearning.png";
+import NarrativeAdventures from "../../assets/images/Specialities-NarrativeAdventures.png";
 
 const Feature = () => {
   const specialities = [
     {
       id: 1,
-      img: "https://preview.uideck.com/items/crypto/assets/img/feature-1.svg",
-      name: "Buy Your Crypto",
+      img: Map,
+      name: "Interactive Learning Maps",
       description:
-        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dianonumy eirmod tempor invidunt ut labore .",
+        "Immersive maps guide learners through captivating educational challenges and quests.",
     },
     {
       id: 2,
-      img: "https://preview.uideck.com/items/crypto/assets/img/feature-2.svg",
-      name: "Sell Instantly",
+      img: AdaptiveLearning,
+      name: "Tailored Adaptive Learning",
       description:
-        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dianonumy eirmod tempor invidunt ut labore . ",
+        "Adaptable content tailored to individual progress, fostering personalized educational experiences . ",
     },
     {
       id: 3,
-      img: "https://preview.uideck.com/items/crypto/assets/img/feature-3.svg",
-      name: "Invest for Longterm",
+      img: NarrativeAdventures,
+      name: "Engaging Narrative Adventures",
       description:
-        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dianonumy eirmod tempor invidunt ut labore .",
+        "Exciting narratives integrated into quests for an immersive educational experience .",
     },
   ];
 
@@ -32,8 +35,9 @@ const Feature = () => {
         <div className={Style.app__home__feature__top}>
           <h1>Our Specialities</h1>
           <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-            dianonumy eirmod tempor invidunt ut labore .
+            Exceptional Educational Offerings: Unveiling Our Unique Specialties
+            in Interactive Learning, Tailored Adaptation, and Engaging
+            Story-Driven Quests
           </p>
         </div>
         <div className={Style.app__home__feature__bottom}>

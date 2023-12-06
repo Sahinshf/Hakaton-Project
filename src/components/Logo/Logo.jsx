@@ -1,13 +1,11 @@
 import React from "react";
 import Style from "./Logo.module.css";
+import LogoSrc from "../../assets/images/logo.png";
 
 const Logo = () => {
   return (
-    <div className={Style.logo}>
-      <img
-        src="https://preview.uideck.com/items/crypto/assets/img/logo.svg"
-        alt=""
-      />
+    <div className={`${Style.logo}`}>
+      <img src={LogoSrc} alt="Brain Navigator Logo" />
     </div>
   );
 };

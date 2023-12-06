@@ -1,9 +1,7 @@
 .app__home__feature__section {
-  padding-top: 150px;
+  padding: 40px 0;
 }
 
-.app__home__feature {
-}
 .app__home__feature__top {
   margin-bottom: 55px;
 }
@@ -31,9 +29,14 @@
     #1029a6 76.69%,
     #1029a6 100%
   );
-  padding: 60px 50px 20px;
+  padding: 60px 50px;
   border-radius: 27px;
   display: flex;
+}
+
+.app__home__feature__bottom img {
+  width: 177px;
+  height: 177px;
 }
 
 .app__home__feature__bottom__speciality {
@@ -42,6 +45,7 @@
   justify-content: center;
   align-items: center;
   margin: 0 10px;
+  max-width: 33%;
 }
 
 .app__home__feature__bottom__speciality p {

@@ -15,16 +15,17 @@ const About = () => {
         <div className={Styles.app__about__right}>
           <h2>About Us</h2>
           <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-            dianonumy eirmod tempor invidunt ut labore. Lorem ipsum dolor sit
-            amet, consetetur sadipscing elitr, sed dianonumy eirmod tempor
-            invidunt ut labore. Lorem ipsum dolor sit amet, consetetur
-            sadipscing elitr, sed dianonumy eirmod tempor invidunt ut labore.
+            Welcome to Brain Navigator, where we believe in transforming
+            education into an exciting adventure. At Brain Navigator, our
+            passion lies in crafting immersive and interactive experiences that
+            merge entertainment with learning. With a team dedicated to
+            fostering curiosity and igniting a love for knowledge, we aim to
+            empower students on their educational journey.
             <br />
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-            dianonumy eirmod tempor invidunt ut labore. Lorem ipsum dolor sit
-            amet, consetetur sadipscing elitr, sed dianonumy eirmod tempor
-            invidunt ut labore. Our
+            Our game blends exploration, problem-solving, and discovery to
+            engage young minds in an enriching quest for learning. Join us as we
+            embark on a mission to make learning fun, accessible, and rewarding
+            for every student, one interactive challenge at a time
           </p>
           <Button
             color={

@@ -5,7 +5,7 @@
     #1029a6 76.69%,
     #1029a6 100%
   );
-  padding: 40px 0 20px 0;
+  padding: 80px 0;
 }
 
 .app__home__banner {
@@ -28,5 +28,13 @@
 }
 
 .app__home__banner__right {
-  margin-right: -300px;
+  width: 500px;
+  height: 430px;
+}
+
+.app__home__banner__right__image {
+  height: 100%;
+  width: 100%;
+  object-position: center;
+  border-radius: 40px;
 }
